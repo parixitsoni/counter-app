@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class Counter extends Component {
     state = {  
         count:0
@@ -14,7 +13,7 @@ class Counter extends Component {
         return (  
             <div>
                 <span className={this.getBadgeClassess()}>{this.formatCount()}</span>
-                <button className='badge badge-secondary' onClick={this.handleIncrement}>Increment</button>
+                <button className='btn btn-secondary btn-sm' onClick={this.handleIncrement}>Increment</button>
             </div>
         );
     }
