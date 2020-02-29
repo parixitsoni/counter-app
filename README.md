@@ -1,3 +1,3 @@
 # counter-app
 
-you can find demo to [click on](https://counterappdemo.netlify.com)
+You can see the output by clicking on the [demo](https://counterappdemo.netlify.com)
